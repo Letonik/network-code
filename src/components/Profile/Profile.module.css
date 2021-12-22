@@ -1,0 +1,15 @@
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.borderPost {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 70%;
+    padding: 20px;
+    background: rgba(118, 203, 223, 0.42);
+    font-weight: bolder;
+}

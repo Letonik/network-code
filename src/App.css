@@ -1,0 +1,21 @@
+.app-wrapper {
+  display: grid;
+  width: 1200px;
+  margin: 10px auto;
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-image: url('./assets/Images/main.png');
+  background-repeat: repeat;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}

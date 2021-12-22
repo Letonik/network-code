@@ -1,0 +1,34 @@
+.header {
+    grid-area: h;
+    background: #76CBDF;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+header img {
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.loginBlock {
+    float: right;
+    padding-top: 10px;
+}
+.loginBlock a{
+    text-decoration: none;
+    color: white;
+}
+.loginBlock button {
+    background: #ff5959;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.loginBlock div {
+    font-size: large;
+    background: white;
+    border-radius: 5px;
+    padding: 0 4px;
+}

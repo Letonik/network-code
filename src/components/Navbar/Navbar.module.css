@@ -1,0 +1,26 @@
+.nav {
+    grid-area: n;
+    background: #76CBDF;
+    padding: 20px;
+    border-radius: 5px;
+}
+.item a{
+    color: #fff;
+    text-decoration: none;
+}
+.item a:hover {
+    text-decoration: none;
+    color: #ff5959;
+}
+.item a.activeLink {
+    color: #ff5959;
+    font-weight: bold;
+}
+.item {
+    background: rgba(60, 191, 232, 0.58);
+    width: 75%;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+}

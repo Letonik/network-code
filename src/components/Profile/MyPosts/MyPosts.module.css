@@ -1,0 +1,32 @@
+.item {
+    color: deeppink;
+}
+.item img {
+    width: 50px;
+}
+.postBlock, form {
+    width: 100%;
+}
+.posts {
+    margin-top: 10px;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.forms button {
+    background: #ff5959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+    width: 100%;
+}
+.forms textarea {
+    width: 100%;
+    border-radius: 5px;
+}

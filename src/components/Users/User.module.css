@@ -1,0 +1,26 @@
+.user {
+    display: flex;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.bgFollow {
+    background: rgba(118, 203, 223, 0.3);
+}
+.bgUnfollow {
+    background: rgba(255, 89, 89, 0.3);
+}
+.user button {
+    background: #ff5959;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+    float: right;
+}
+.info {
+    width: 100%;
+}
